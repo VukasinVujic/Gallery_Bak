@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.search-bar-icon-color {
+    color: white;
+}
+
+.wrapper {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*  to remove negative margins */
+    max-width: 40%;
+    width: 100%;
+    border-radius: 6%;
+    display: flex;
+}
+.wrapper .input {
+    width: 85%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3%;
+    font-weight: bold;
+}
+.searchBtn {
+    background-color: rgba(255, 26, 140);
+    width: 15%;
+    border-radius: 3%;
+    position: relative;
+    cursor: pointer;
+}
+
+.searchBtn .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+}
