@@ -9,6 +9,7 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { SixPictureComponent } from './main_body/six-picture/six-picture.component';
 import { ThreePictureComponent } from './main_body/three-picture/three-picture.component';
 import { ContainerComponent } from './main_body/container/container.component';
+import { HttpClientModule } from '@angular/common/http'; 
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContainerComponent } from './main_body/container/container.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
