@@ -1,7 +1,7 @@
 <h3>Hot Tickets</h3>
-<br>
+<button class="additionalButton" (click)="smallToBi()">Small=>Big</button>
 <div class="sixPictures">
-    <div class="lala" *ngFor="let image of numPictShow">
+    <div class="lala" *ngFor="let image of numPictShow; let i = index">
         <a [href]="image"> 
             <img [src]="image" />
         </a>
