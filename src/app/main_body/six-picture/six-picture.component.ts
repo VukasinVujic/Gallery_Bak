@@ -25,8 +25,8 @@ export class SixPictureComponent implements OnInit {
 
   getRandomPicture(){
     this.randomNumber = 0;
-    this.randomNumber = Math.floor(Math.random() * 1000); 
-    return Math.floor(Math.random() * 1000);
+    this.randomNumber = Math.floor(Math.random() * 100); 
+    return Math.floor(Math.random() * 100);
 
   }
 

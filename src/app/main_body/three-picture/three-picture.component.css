@@ -1,0 +1,24 @@
+h3, .first-list  {
+    width: 80%;
+}
+
+ul li {
+    display: inline-block;
+    padding: 2px;
+}
+
+.li-button {
+    margin-left: 55%;
+    vertical-align: top;
+}
+.li-text {
+    margin-left: 2%;
+    vertical-align: top;
+}
+.button {
+    background-color: purple;
+    padding: 5px;
+    color: white;
+    border-radius: 8%;
+}
+
