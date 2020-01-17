@@ -1,7 +1,11 @@
-<p>six-picture works!</p>
-
+<h1>Hot Tickets</h1>
+<br>
 <div class="sixPictures">
-    <div *ngFor="let image of numPictShow">
-        <img [src]="image" />
+    <div class="lala" *ngFor="let image of numPictShow">
+        <a [href]="image"> 
+            <img [src]="image" />
+        </a>
+        <p>Height: 200</p>
+        <p>Width: 200</p>
     </div>
 </div>

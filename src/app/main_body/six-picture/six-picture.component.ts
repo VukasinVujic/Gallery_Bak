@@ -19,9 +19,9 @@ export class SixPictureComponent implements OnInit {
 
   }
 
-  imagePath(){
-    return `https://i.picsum.photos/id/${this.randomNumber}/100/100.jpg`
-  } 
+  // imagePath(){
+  //   return `https://i.picsum.photos/id/${this.randomNumber}/100/500.jpg`
+  // } 
 
   getRandomPicture(){
     this.randomNumber = 0;
@@ -33,7 +33,7 @@ export class SixPictureComponent implements OnInit {
   makeUrlPaths(){
     this.numPictShow.slice(0);
     for(let i = 0 ; i <= 5 ; i++ ){
-      this.numPictShow.push(`https://i.picsum.photos/id/${this.getRandomPicture()}/200/200.jpg`)
+      this.numPictShow.push(`https://i.picsum.photos/id/${this.getRandomPicture()}/400/100.jpg`)
     }
     console.log(this.numPictShow);
   }

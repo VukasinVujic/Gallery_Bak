@@ -9,7 +9,7 @@
 
 .wrapper {
     position: absolute;
-    top: 5%;
+    top: 3.5%;
     left: 50%;
     transform: translate(-50%,-50%); /*  to remove negative margins */
     max-width: 40%;
