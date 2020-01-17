@@ -8,9 +8,10 @@ ul li {
 }
 
 .li-button {
-    margin-left: 55%;
+    margin-left: 56%;
     vertical-align: top;
 }
+
 .li-text {
     margin-left: 2%;
     vertical-align: top;
@@ -22,3 +23,50 @@ ul li {
     border-radius: 8%;
 }
 
+@media only screen and (max-width: 1200px) {
+    [class*="li-button"] {
+        margin-left: 45%
+      }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    [class*="li-button"] {
+        margin-left: 40%
+      }
+  }
+
+  @media only screen and (max-width: 980px) {
+    [class*="li-button"] {
+        margin-left: 32%
+      }
+  }
+
+  @media only screen and (max-width: 880px) {
+    [class*="li-button"] {
+        margin-left: 25%
+      }
+  }
+
+  @media only screen and (max-width: 770px) {
+    [class*="li-button"] {
+        margin-left: 18%
+      }
+  }
+
+  @media only screen and (max-width: 700px) {
+    [class*="li-button"] {
+        margin-left: 10%
+      }
+  }
+
+  @media only screen and (max-width: 650px) {
+    [class*="li-button"] {
+        margin-left: 5%
+      }
+  }
+
+  @media only screen and (max-width: 600px) {
+    [class*="li-button"] {
+        margin-left: 0
+      }
+  }

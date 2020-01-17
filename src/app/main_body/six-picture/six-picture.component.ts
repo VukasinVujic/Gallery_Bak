@@ -10,22 +10,15 @@ export class SixPictureComponent implements OnInit {
 
   constructor( private picturesService: PicturesService) { }
 
-  randomNumber: number = 0;
   numPictShow: String[] = [];
 
   ngOnInit() {
-    this.getRandomPicture();
+    this.getRandomNbr();
     this.makeUrlPaths();
 
   }
 
-  // imagePath(){
-  //   return `https://i.picsum.photos/id/${this.randomNumber}/100/500.jpg`
-  // } 
-
-  getRandomPicture(){
-    this.randomNumber = 0;
-    this.randomNumber = Math.floor(Math.random() * 100); 
+  getRandomNbr(){
     return Math.floor(Math.random() * 100);
 
   }
@@ -33,7 +26,7 @@ export class SixPictureComponent implements OnInit {
   makeUrlPaths(){
     this.numPictShow.slice(0);
     for(let i = 0 ; i <= 5 ; i++ ){
-      this.numPictShow.push(`https://i.picsum.photos/id/${this.getRandomPicture()}/400/100.jpg`)
+      this.numPictShow.push(`https://i.picsum.photos/id/${this.getRandomNbr()}/400/100.jpg`)
     }
     console.log(this.numPictShow);
   }

@@ -1,63 +1,15 @@
 <br>
 <h3>Upcoming events</h3>
+<div class="lala" *ngFor=" let list of numPictShow; let i =index">
 
-<ul class="first-list">
-    <li>
-    <img src="https://i.picsum.photos/id/27/160/70.jpg" alt="jaja">  </li>
-    <li class="li-text">FEB Mon 19:30 <br> 14 Jess Glynn <br> 2019 Width: 250 , Height: 250</li>
-    <li class="li-button"><button class="button">Find pics ></button></li>
-
-</ul>
-<ul class="first-list">
-    <li>
-    <img src="https://i.picsum.photos/id/27/160/70.jpg" alt="jaja">  </li>
-    <li class="li-text">FEB Mon 19:30 <br> 14 Jess Glynn <br> 2019 Width: 250 , Height: 250</li>
-    <li class="li-button"><button class="button">Find pics ></button></li>
-</ul>
-
-<ul class="first-list">
-    <li>
-    <img src="https://i.picsum.photos/id/27/160/70.jpg" alt="jaja">  </li>
-    <li class="li-text">FEB Mon 19:30 <br> 14 Jess Glynn <br> 2019 Width: 250 , Height: 250</li>
-    <li class="li-button"><button class="button">Find pics ></button></li>
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <ul class="first-list">
-    <li>  <img src="https://i.picsum.photos/id/27/180/70.jpg" alt="jaja"> <hr> <p class="jaja">dkfjsdfjdk</p>  </li>
-    <li>  <img src="https://i.picsum.photos/id/27/180/70.jpg" alt="jaja"> <hr> </li>
-    <li>  <img src="https://i.picsum.photos/id/27/180/70.jpg" alt="jaja"> </li>    
-</ul> -->
-
-
-
-
-
-
-<!-- <ul class="first-list">
-    <li>
-        <ul class="second-list">
-        <li>  <img src="https://i.picsum.photos/id/27/180/80.jpg" alt="jaja"> </li>
-        
-        <li> 
-            <ul class="third-list">
-                <li>a</li>
-                <li>bbb</li>
-            </ul>
+    <ul class="first-list" >
+        <li><img [src]="list" alt="jaja">  </li>
+        <li class="li-text">FEB Mon 19:30 <br> 14 Jess Glynn <br> 2019 Width: 250 , Height: 250</li>
+        <li class="li-button">
+            <a [href]="list">     
+            <button class="button">Find pics ></button>
+            </a>   
         </li>
-        
-        <li>333333333333</li>
-        </ul>
-    </li>
-</ul> -->
+    </ul>
+
+</div>
